@@ -1,0 +1,373 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1818;
+   }
+   
+   header {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: -1%;
+   }
+   
+   ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-right: 50px
+    
+}
+
+li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;   
+}
+ul li {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+ul li:hover::after {
+    transform: scaleX(1);
+  }
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid #333;
+    width: 40%;
+    height: 20%;
+    
+   }
+   
+   #about {
+    padding: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+   }
+   #btn1{
+    border: none;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(66, 142, 68);
+    color: white;
+    margin-top: 20px;   
+    cursor: pointer;
+    transition: width 2s ease-out 1s;
+   }
+    #btn1:hover{
+        background-color: rgb(1, 64, 32);
+        color: white;
+        cursor:pointer;
+        width: 200px;
+        height: 40px;
+    } 
+   #btn2{
+    border: 2px solid white;
+    width: 130px;
+    height: 40px;
+    background-color:transparent;
+    color: white;
+    margin-top: 20px; 
+    cursor: pointer;
+    transition: width 2s ease-out 1s;  
+   }
+
+    #btn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor:pointer;
+    width: 200px;
+    height: 40px;
+} 
+   div{
+    padding-top: 100px;
+    padding-left: 10px;
+   }
+   h1{
+    text-size-adjust: 1000px;
+   }
+   .section2{
+    margin: 70px auto;
+    text-align: center;
+    color: white;
+}
+.section2 .about{
+    font-size: 35px;
+    cursor: pointer;
+}
+.section2 .about:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+.section2 img{
+    border-radius: 360px;
+    width: 15px;
+}
+.section2 .text{
+    font-size: 13px;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.section2 .div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+.section2 span{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+}
+.section2 span p{
+    margin: 5px auto;
+}
+
+.section2 span:hover{
+    border: 1px solid rgb(240, 240, 240);
+    background-color: gray;
+}
+
+
+
+.section3{
+    margin: 70px auto;
+    color: white;
+}
+.section3 .p1{ 
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+.section3 div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.section3 img{
+    width: 30px;
+    border-radius: 360px;
+    border: 1px solid rgb(247, 247, 247);
+}
+.section3 span{
+    background-color: rgb(47, 47, 47);
+    font-size: 20px;
+    color: gray;
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    width: 130px;
+    cursor: pointer;
+}
+.section3 span:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.section3 .cl{
+    display: none;
+}
+.section3 .p1:hover{
+    border-bottom: 2px solid rgb(252, 252, 252);
+}
+
+
+.section4{
+    text-align: center;
+}
+.section4 .skills{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+.section4 .skills:hover{
+    border-bottom: 2px solid rgb(235, 236, 236);
+}
+.section4 div{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(47, 47, 47);
+    margin: auto auto;
+    padding-right:80px;
+    padding-left: 20px;
+    width: 450px;
+
+}
+.section4 .percent{
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
+.section4 .tech{
+    color:rgb(255, 255, 255) ;
+    font-size: 14px;
+}
+.section4 span{
+    cursor: pointer;
+}
+.section4 span:hover{
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+
+
+.section5{
+    text-align: center;
+}
+.section5 .p1{
+    text-align: center;
+    color: white;
+    font-size: 35px; 
+    cursor: pointer;
+}
+.section5 .p1:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.section5 .input{
+    background-color: rgb(40, 40, 40);
+    border: none;
+    margin: 25px 25px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+
+.section5 .msg{
+    border: 1px solid gray;
+    width: 650px;
+    height: 100px;
+    padding: 10px; 
+}
+.section5 .boutton{
+    background-color: rgb(21, 3, 138);
+    color: white;
+    border: none;
+    margin: 10px; 
+    padding: 10px;
+    font-size: 14px;
+    width: 120px;
+    cursor: pointer;   
+}
+.section5 .boutton:hover{
+    background-color:rgb(76, 10, 231) ;
+}
+.section5 form{
+    display: block;
+}
+
+
+
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: 90px;
+}
+
+
+
+
+
+@media (max-width:750px){
+    html{
+        font-size: 50%;
+    }
+    header ul{
+        display: none;
+    }
+    header img{
+        display: block;
+    }
+    .body{
+        width: 59rem;
+    }
+    
+    .section1 img{
+        width: 25rem;
+        height: 25rem;
+    }
+    
+    .section1 .p1{
+        font-size: 3rem;
+    }
+    .section1 .p2{
+        font-size: 1.5rem;
+    }
+    .section1 input{
+        margin: 0.5rem;
+    }
+
+    .section2 .about{
+        font-size: 3rem;
+    }
+    .section2 .text{
+        margin: auto 100px;
+        font-size: 1.5rem;
+    }
+    .section2 .div1{
+        margin: 30px 20px;
+    }
+    .section2 {
+        font-size: 1.3rem;
+    }
+    .section2 .p2{
+        display: none;
+    }
+    .section2 img{
+        width: 1.6rem;
+    }
+
+
+    .section3 .p1{
+        font-size: 3rem;
+    }
+    .section3 span{
+        display: none;
+    }
+    .section3 .cl{
+        display: flex;
+    }
+    .section3 .cl img{
+        width: 40px;
+        border-radius: 360px;
+        border: 2px solid rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+
+
+    .section4 .skills{
+        font-size: 3rem;
+    }
+    .section4 div{
+        flex-direction: column;
+        width: 100px;
+        padding-right: 50px;
+        gap: 1rem;
+    }
+
+
+    .section5 .p1{
+        font-size: 3rem;
+    }
+    .section5 .msg{
+        width: 35rem;
+    }
+  }
